@@ -3,5 +3,4 @@ students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
 students = sorted(list(students))
 grades = (list(map(lambda score: sum(score)/len(score), grades)))
 averageScoreStudents = dict(zip(students, grades))
-
 print(averageScoreStudents)
